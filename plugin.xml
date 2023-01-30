@@ -24,6 +24,7 @@
   </platform>
 
   <platform name="android">
+    <preference name="android-compileSdkVersion" value="30" />
     <js-module src="www/crashlytics.js" name="FirebaseCrashlytics">
       <clobbers target="FirebaseCrashlytics"/>
     </js-module>
